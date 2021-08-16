@@ -1,0 +1,6 @@
+<div *ngIf="post">
+	
+	<div [innerHTML]="htmlTitle"></div>
+	<div [innerHTML]="htmlBody"></div>
+	<button routerLink="/edit/{{post.postid}}">Edit</button>
+</div>

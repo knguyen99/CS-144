@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <% for(var i=0; i < post_list.length; i++){%>
+  <td><%- post_list[i].title %></td>
+  <td><%-post_list[i].body%> %></td>
+  <td>Creation Time: <%-post_list[i].creation%></td><br/>
+  <td>Modified Time: <%- post_list[i].modified%></td></br>
+  <% } %> <% if (next_postid) { %>
+  <a href="/blog/<%-username%>?start=<%-next_postid%>">View Next Page</a>
+
+  <% }%>
+</html>

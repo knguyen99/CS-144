@@ -1,0 +1,12 @@
+<button (click)="createPost()">New Post</button>
+<ul>
+  <li
+    *ngFor="let post of posts"
+    (click)="setCurrent(post)"
+    routerLink="/edit/{{ post.postid }}"
+  >
+    <span
+      >{{ post.created | date: "dd/MM/yyyy h:mm:ss aa" }} {{ post.title }}</span
+    >
+  </li>
+</ul>

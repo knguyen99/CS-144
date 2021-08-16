@@ -1,0 +1,16 @@
+
+
+
+li {
+	border: .5px solid #606060;
+  	background: #e0e0e0;
+  	list-style-type: none;
+}
+
+li:hover {
+	background: #e2c4f5;
+}
+
+ul{
+	padding: 0;
+}

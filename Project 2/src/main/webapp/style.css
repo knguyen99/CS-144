@@ -1,0 +1,84 @@
+@font-face{
+	font-family: manrope;
+	src: url(./font.ttf);
+}
+
+body{
+	background-color: #FFF;
+	margin: 0px;
+}
+
+* {
+	font-family: manrope;
+}
+
+.header{
+	background-color: #3bbfae;
+	color: #fff;
+	margin: 0px;
+	min-width: 100%; 
+}
+
+.header h1{
+	margin: 0;
+	padding: .5%;
+	padding-left: .5%;
+}
+
+.button-row{
+	background-color: #cccccc;
+	color: #303030;
+	width: 100%;
+	padding-top: .5%;
+	padding-bottom: .5%;
+}
+
+.button-row button{
+	border: none;
+	background-color: #cccccc;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.form-input{
+	text-align: center;
+	width: 100%;
+}
+
+.form-input input{
+	width: 60%;
+}
+
+.form-input label{
+	font-size: 18px;
+}
+
+.form-input textarea{
+	width: 60%;
+}
+
+.preview-text{
+	padding-left: 3%;
+}
+
+.post-table{
+	padding-left: 2%;
+	padding-right: 7%
+	width:100%;
+}
+
+.post-table button{
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	width:50%;
+}
+
+.post-table td{
+	width: 20%;
+	text-align: left;
+}
+.post-table th{
+	text-align: left;
+	width: 20%;
+}
